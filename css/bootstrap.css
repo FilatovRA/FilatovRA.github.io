@@ -3006,8 +3006,8 @@ fieldset[disabled] .btn-default.active {
   background-color: #000000;
 }
 .btn-primary {
-  color: #000000;
-  background-color: #00aaaa;
+    color: #000000;
+    background: #bbbbbb;
   /*
   &:hover,
   &:focus,

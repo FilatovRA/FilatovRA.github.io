@@ -1,4 +1,4 @@
-//_386 = { onePass: true, speedFactor: 1.25 };
+self._386 = { onePass: true, speedFactor: 0.5 };
 self._386 = self._386 || {};
 
 $(function(){

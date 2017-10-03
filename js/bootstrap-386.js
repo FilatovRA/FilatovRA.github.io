@@ -29,7 +29,7 @@ $(function(){
 
   function loading() {
 
-    if(True) {
+    if(true) {
       document.body.style.visibility='visible';
       return;
     }

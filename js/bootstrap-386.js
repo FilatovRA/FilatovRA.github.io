@@ -1,4 +1,3 @@
-var _386 = { onePass: true, speedFactor: 1.25 };
 self._386 = self._386 || {};
 
 $(function(){
@@ -30,13 +29,13 @@ $(function(){
 
   function loading() {
 
-    if(_386.fastLoad) {
+    if(True) {
       document.body.style.visibility='visible';
       return;
     }
 
     var
-      onePass = _386.onePass,
+      onePass = true,
       speedFactor = 1 / (_386.speedFactor || 1) * 165000;
       wrap = document.createElement('div'),
       bar = wrap.appendChild(document.createElement('div')),

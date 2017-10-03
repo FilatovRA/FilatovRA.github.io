@@ -30,13 +30,13 @@ $(function(){
 
   function loading() {
 
-    if(true) {
+    if(_386.fastLoad) {
       document.body.style.visibility='visible';
       return;
     }
 
     var
-      onePass = true,
+      onePass = _386.onePass,
       speedFactor = 1 / (_386.speedFactor || 1) * 165000;
       wrap = document.createElement('div'),
       bar = wrap.appendChild(document.createElement('div')),

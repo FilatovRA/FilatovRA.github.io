@@ -6,4 +6,5 @@ function launchTyping(){
       }
       var typed = new Typed(".selfTypingText", options);
 }
+    launchTyping()
 })

@@ -1,5 +1,5 @@
 $(function(){
-function launchTyping() {
+function launchTyping(){
     var options = {
         strings: ["Hello, my name is Roman,"],
         typeSpeed: 40
